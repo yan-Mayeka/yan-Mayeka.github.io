@@ -3,6 +3,15 @@
     src: url('./assests/fonts/sitelen_Lukasele_Majeka.otf') format('opentype');
 }
 
+@font-face {
+    font-family: "Ilozellig";
+    src: url('./assests/fonts/sitelen-Ilosele.otf') format('opentype');
+}
+
 .Lukazellig {
     font-family: 'Lukazellig', serif;
+}
+
+.Ilozellig {
+    font-family: 'Ilozellig', sans-serif;
 }
