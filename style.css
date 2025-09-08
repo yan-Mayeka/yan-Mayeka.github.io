@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Lukazellig";
-    src: url('https://github.com/yan-Mayeka/yan-Mayeka.github.io/raw/refs/heads/main/assests/fonts/sitelen_Lukasele_Majeka.otf') format('opentype');
+    src: url('./assests/fonts/sitelen_Lukasele_Majeka.otf') format('opentype');
 }
 
 .Lukazellig {
