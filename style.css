@@ -5,11 +5,3 @@
         font-weight: normal;
         font-style: normal;
     }
-
-    body {
-        font-family: 'len Majeka', sans-serif; /* Apply to the entire body */
-    }
-
-    h1 {
-        font-family: 'len Majeka', Arial, sans-serif; /* Apply to specific elements */
-    }
