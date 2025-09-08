@@ -1,0 +1,15 @@
+    @font-face {
+        font-family: 'len Majeka';
+        src: url('yan-Mayeka.github.io/assets/fonts/sitelen-Ilosele.otf') format('otf'),
+             url('yan-Mayeka.github.io/assets/fonts/sitelen_Lukasele_Majeka') format('otf');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        font-family: 'len Majeka', sans-serif; /* Apply to the entire body */
+    }
+
+    h1 {
+        font-family: 'len Majeka', Arial, sans-serif; /* Apply to specific elements */
+    }
