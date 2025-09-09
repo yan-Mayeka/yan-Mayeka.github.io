@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lipu pi jan Majeka | sitelen pona</title>
+    <link href="/style.css" rel="stylesheet">
+      <style>
+        body {
+          background-color: hsl(0, 0, 100);
+        }
+</style>
+    <div style="display: flex; justify-content: center; align-items: center; height: 40vh;">
+  <h1 class="Lukazellig">󱥬󱤀 󱦜 󱤄󱥄! 󱤪󱥍󱦗󱤑󱦐󱤳󱦖󱤈󱤑󱦖󱤉󱤜󱦖󱤄󱦑!</h1>
+</div>
+<div style="display: flex; justify-content: center; align-items: center; height: 20vh;">
+  <h2 class="Lukazellig"> 󱥁󱤧󱤪󱥇 <span style="color:red;"> 󱥇 </span></h2>
+</div>
+    <div>
+    <h2 class="Lukazellig">󱥞󱥷󱤉󱥙</h2>
+    <p class="Lukazellig">󱤴󱥷󱤉sitelen Lasina</p>
+    <p class="Lukazellig";>󱤴󱥷󱤮󱤉<a href="./lipu/Latin/tomo-nasin.html"; class="Lukazellig";>󱥠 (󱥠󱤧pokasi󱥵󱦜󱤇󱥙)</a></p>
+    <p class="Lukazellig">󱤴󱥷󱤮󱤉<a href="./lipu/Latin/lipu-len.html"; class="Lukazellig";>󱤥󱥠</a></p>
+    </div>
+    <img src="./assests/images/janTokoToko.gif">
+  </head>
