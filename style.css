@@ -51,6 +51,14 @@ button {
  text-decoration: none;
 }
 
+a button {
+ text-decoration: none;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+
 .LSC-Unit-Left {
   flex-direction: column;
   justify-content: left;
