@@ -44,10 +44,10 @@ h3 {
 }*/
 
 button {
- background-color: hsl(260, 9, 79);
+ background-color: hsl(260 9 79);
  height: 4rem;
- width: 10rempx;
- border: 10px dashed hsl(288, 57, 63);
+ width: 10rem;
+ border: 10px dashed hsl(288 57 63);
  text-decoration: none;
 }
 
