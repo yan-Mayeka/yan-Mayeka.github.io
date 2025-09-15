@@ -47,9 +47,7 @@ button {
  background-color: #c9c6cf;
  height: 4rem;
  width: 10rempx;
- padding: 1rem;
- border: 5px dotted hsl(288, 57, 63);
- margin: 10rem;
+ border: 10px dashed hsl(288, 57, 63);
  text-decoration: none;
 }
 
