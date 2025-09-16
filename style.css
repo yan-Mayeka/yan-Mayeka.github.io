@@ -25,6 +25,12 @@ h3 {
     src: url('./assests/fonts/linja_Majeka_pi_toki_tokiB4.otf') format('opentype');
 }
 
+@font-face {
+    font-family: "AWT";
+    src: url('./assests/fonts/sitelen-Majeka-pi-alasa-wan-taso.otf') format('opentype');
+}
+
+
 .Lukazellig {
     font-family: 'Lukazellig', serif;
 }
