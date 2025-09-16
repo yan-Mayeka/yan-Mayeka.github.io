@@ -105,3 +105,19 @@ button {
   min-width: 0px; 
   word-wrap: break-word;
 }
+
+/*.NaviOpen {
+  
+}*/
+
+.StickerBlorb {
+  position: sticky;
+  lex-direction: column;
+  justify-content: right;
+  align-items: center;
+  margin: 1rem;
+  background-color: hsl(260 100 70);
+  border: 2px dashed hsl(288 45 64);
+  padding: 1rem;
+  top: 10;
+}
