@@ -112,7 +112,7 @@ button {
 
 .StickerBlorb {
   position: sticky;
-  lex-direction: column;
+  flex-direction: column;
   justify-content: right;
   align-items: center;
   margin: 1rem;
