@@ -100,3 +100,8 @@ button {
 .togradiant {
   background: content-box linear-gradient(white, black);
 }
+
+* {
+  min-width: 0px; 
+  word-wrap: break-word;
+}
