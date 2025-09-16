@@ -71,6 +71,8 @@ button {
   padding: 0.2rem;
   gap: 0.5rem;
   margin-right: 0.5rem;
+  min-width: 0px; 
+  word-wrap: break-word;
 }
 
 .LSC-Unit-Middle {
@@ -80,6 +82,8 @@ button {
   padding: 0.4rem;
   gap: 0.5rem;
   margin: 0.5rem;
+  min-width: 0px; 
+  word-wrap: break-word;
 }
 
 .LSC-Unit-Right {
@@ -89,6 +93,8 @@ button {
   padding: 0.2rem;
   gap: 0.5rem;
   margin-left: 0.5rem;
+  min-width: 0px; 
+  word-wrap: break-word;
 }
 
 .togradiant {
