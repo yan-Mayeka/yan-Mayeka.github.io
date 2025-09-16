@@ -45,6 +45,11 @@ h3 {
     font-size: 30px;
 }
 
+.AWT {
+    font-family: 'AWT', sans-serif;
+    font-size: 30px;
+}
+
 button {
  /*background-color: hsl(260 9 79);
  height: 4rem;
