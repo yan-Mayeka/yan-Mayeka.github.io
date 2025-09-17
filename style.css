@@ -125,3 +125,13 @@ button {
     top: 10;
     color: hsl(288 40 40);
 }
+
+h2 .StickerBlorb {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+p .StickerBlorb {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
