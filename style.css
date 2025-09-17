@@ -126,12 +126,10 @@ button {
     color: hsl(288 40 40);
 }
 
-h2 .StickerBlorb {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+.StickerBlorb h2 {
+  margin: 0px;
 }
 
-p .StickerBlorb {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+.StickerBlorb p {
+  margin: 8px;
 }
