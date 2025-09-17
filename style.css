@@ -135,3 +135,7 @@ button {
 .StickerBlorb p {
   margin: 8px;
 }
+
+body {
+  zoom: 200%;
+}
