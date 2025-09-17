@@ -111,13 +111,15 @@ button {
 }*/
 
 .StickerBlorb {
-  position: sticky;
-  flex-direction: column;
-  justify-content: right;
-  align-items: center;
-  margin: 1rem;
-  background-color: hsl(260 100 70);
-  border: 2px dashed hsl(288 45 64);
-  padding: 1rem;
-  top: 10;
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    margin: 1rem;
+    background-color: hsl(250 30 70);
+    border: 2px dashed hsl(288 50 50);
+    padding: 1rem;
+    top: 10;
+    color: hsl(288 40 40);
 }
