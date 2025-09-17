@@ -142,3 +142,7 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
 }
+
+a {
+  text-decoration: none;
+}
