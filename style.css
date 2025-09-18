@@ -160,7 +160,6 @@ a {
   /*image height should be 2000px and 1000px widþ*/
   height: auto;
   width: 50%;
-  filter: saturate(500%)
+  filter: saturate(500%);
   border-radius: 15px;
-  transition: filter 0.3s ease;
 }
