@@ -30,6 +30,16 @@ h3 {
     src: url('./assests/fonts/sitelen-Majeka-pi-alasa-wan-taso.otf') format('opentype');
 }
 
+@font-face {
+    font-family: "NSTAN";
+    src: url('./assests/fonts/nasin-nanpa-4.0.2.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Consolas";
+    src: url('./assests/fonts/Consolas.otf') format('opentype');
+}
+
 
 .Lukazellig {
     font-family: 'Lukazellig', serif;
@@ -48,6 +58,14 @@ h3 {
 .AWT {
     font-family: 'AWT', sans-serif;
     font-size: 30px;
+}
+
+.NSTAN {
+    font-family: 'Towitela', sans-serif;
+}
+
+.Consolas {
+    font-family: 'AWT', serif;
 }
 
 button {
