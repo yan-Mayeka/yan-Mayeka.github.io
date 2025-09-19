@@ -84,7 +84,7 @@ h3 {
 
 .FSB {
   background-color: hsl(0 0 20);
-  height: fit-content;
+  height: 175px;
   width: fit-content;
   border: 2px dashed hsl(0 0 60);
   text-decoration: underline;
