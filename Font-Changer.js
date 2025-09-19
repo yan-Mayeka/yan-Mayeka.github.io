@@ -14,7 +14,7 @@ const ijoAWT = document.querySelectorAll('.AWT'); // Selects elements by class
 const ijoNSTAN = document.querySelectorAll('.NSTAN'); // Selects elements by class
 const ijoConsolas = document.querySelectorAll('.Consolas'); // Selects elements by class
 //ÞINGS TO CHANGE
-const Entry = document.getElementById('Entry');
+const Entry = document.querySelectorAll('Entry');
 //ILOZELLIGER
   IzMaker.addEventListener('click', () => {
         Entry.classList.remove('Lukazellig');
