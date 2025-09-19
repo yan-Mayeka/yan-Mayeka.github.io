@@ -29,12 +29,12 @@ const Entry = document.querySelectorAll('.Entry');
 //LUKAZELLIGER
   LzMaker.addEventListener('click', () => {
     Entry.forEach((element) => {
-        Entry.classList.remove('ijoIlozellig');
-        Entry.classList.remove('ijoNSTAN');
-        Entry.classList.remove('ijoConsolas');
-        Entry.classList.remove('ijoAWT');
-        Entry.classList.remove('ijoTowitela');
-        Entry.classList.add('ijoLukazellig');
+        Entry.classList.remove('Ilozellig');
+        Entry.classList.remove('NSTAN');
+        Entry.classList.remove('Consolas');
+        Entry.classList.remove('AWT');
+        Entry.classList.remove('Towitela');
+        Entry.classList.add('Lukazellig');
     });
   });
 //NSTANER
