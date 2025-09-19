@@ -151,7 +151,7 @@ a {
 .TNS-Þumbnail {
   /*image height should be 2000px and 1000px widþ*/
   height: auto;
-  width: 50%;
+  width: 100%;
   filter: saturate(20%);
   border-radius: 15px;
 }
@@ -159,7 +159,7 @@ a {
 .TNS-Þumbnail:hover {
   /*image height should be 2000px and 1000px widþ*/
   height: auto;
-  width: 50%;
+  width: 100%;
   filter: saturate(100%);
   border-radius: 15px;
   transition: filter 0.2s ease;
