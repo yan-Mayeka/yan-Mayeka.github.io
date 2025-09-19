@@ -1,59 +1,72 @@
-function oIlozellig() {
-  const paragraph = document.getElementById("IZ");
-
-  // You can either toggle between classes or set a specific new class
-  if (paragraph.className !== "Ilozellig") {
-    paragraph.className = "Ilozellig";
-  } else {
-    paragraph.className = "Ilozellig"; // Or another class if you have more
-  }
-
-function oLukazellig() {
-  const paragraph = document.getElementById("LZ");
-
-  // You can either toggle between classes or set a specific new class
-  if (paragraph.className !== "Lukazellig") {
-    paragraph.className = "Lukazellig";
-  } else {
-    paragraph.className = "Lukazellig"; // Or another class if you have more
-  }
-
-function oNSTAN() {
-  const paragraph = document.getElementById("NN");
-
-  // You can either toggle between classes or set a specific new class
-  if (paragraph.className !== "NSTAN") {
-    paragraph.className = "NSTAN";
-  } else {
-    paragraph.className = "NSTAN"; // Or another class if you have more
-  }
-
-function oConsolas() {
-  const paragraph = document.getElementById("CN");
-
-  // You can either toggle between classes or set a specific new class
-  if (paragraph.className !== "Consolas") {
-    paragraph.className = "Consolas";
-  } else {
-    paragraph.className = "Consolas"; // Or another class if you have more
-  }
-
-function oTowitela() {
-  const paragraph = document.getElementById("TW");
-
-  // You can either toggle between classes or set a specific new class
-  if (paragraph.className !== "Towitela") {
-    paragraph.className = "Towitela";
-  } else {
-    paragraph.className = "Towitela"; // Or another class if you have more
-  }
-
-function oAWT() {
-  const paragraph = document.getElementById("AW");
-
-  // You can either toggle between classes or set a specific new class
-  if (paragraph.className !== "Towitela") {
-    paragraph.className = "Towitela";
-  } else {
-    paragraph.className = "Towitela"; // Or another class if you have more
-  }
+document.addEventListener('DOMContentLoaded', () => {
+//BUTTON CLASSES
+const IzMaker = document.getElementById('IZ');
+const LzMaker = document.getElementById('LZ');
+const AWMaker = document.getElementById('AW');
+const TWMaker = document.getElementById('TW');
+const NNMaker = document.getElementById('NN');
+const CSMaker = document.getElementById('CS');
+//FONT HAVERS
+const ijoIlozellig = document.querySelectorAll('.Ilozellig'); // Selects elements by class
+const ijoLukazellig = document.querySelectorAll('.Lukazellig'); // Selects elements by class
+const ijoTowitela = document.querySelectorAll('.Towitela'); // Selects elements by class
+const ijoAWT = document.querySelectorAll('.AWT'); // Selects elements by class
+const ijoNSTAN = document.querySelectorAll('.NSTAN'); // Selects elements by class
+const ijoConsolas = document.querySelectorAll('.Consolas'); // Selects elements by class
+//ÞINGS TO CHANGE
+const Entry = document.getElementById('Entry');
+//ILOZELLIGER
+  IzMaker.addEventListener('click', () => {
+        Entry.classList.remove('Lukazellig');
+        Entry.classList.remove('NSTAN');
+        Entry.classList.remove('Consolas');
+        Entry.classList.remove('AWT');
+        Entry.classList.remove('Towitela');
+        Entry.classList.add('Ilozellig');
+    });
+//LUKAZELLIGER
+  LzMaker.addEventListener('click', () => {
+        Entry.classList.remove('Ilozellig');
+        Entry.classList.remove('NSTAN');
+        Entry.classList.remove('Consolas');
+        Entry.classList.remove('AWT');
+        Entry.classList.remove('Towitela');
+        Entry.classList.add('Lukazellig');
+    });
+//NSTANER
+  NNMaker.addEventListener('click', () => {
+        Entry.classList.remove('Ilozellig');
+        Entry.classList.remove('Lukazellig');
+        Entry.classList.remove('Consolas');
+        Entry.classList.remove('AWT');
+        Entry.classList.remove('Towitela');
+        Entry.classList.add('NSTAN');
+    });
+//CONSOLASER
+  CSMaker.addEventListener('click', () => {
+        Entry.classList.remove('Ilozellig');
+        Entry.classList.remove('NSTAN');
+        Entry.classList.remove('Lukazellig');
+        Entry.classList.remove('AWT');
+        Entry.classList.remove('Towitela');
+        Entry.classList.add('Consolas');
+    });
+//TOWITELAER
+  TWMaker.addEventListener('click', () => {
+        Entry.classList.remove('Ilozellig');
+        Entry.classList.remove('NSTAN');
+        Entry.classList.remove('Consolas');
+        Entry.classList.remove('AWT');
+        Entry.classList.remove('Lukazellig');
+        Entry.classList.add('Towitela');
+    });
+//AWTER
+  AWMaker.addEventListener('click', () => {
+        Entry.classList.remove('Ilozellig');
+        Entry.classList.remove('NSTAN');
+        Entry.classList.remove('Consolas');
+        Entry.classList.remove('Towitela');
+        Entry.classList.remove('Lukazellig');
+        Entry.classList.add('AWT');
+    });
+});
