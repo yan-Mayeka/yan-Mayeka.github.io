@@ -29,56 +29,56 @@ const Entry = document.querySelectorAll('.Entry');
 //LUKAZELLIGER
   LzMaker.addEventListener('click', () => {
     Entry.forEach((element) => {
-        Entry.classList.remove('Ilozellig');
-        Entry.classList.remove('NSTAN');
-        Entry.classList.remove('Consolas');
-        Entry.classList.remove('AWT');
-        Entry.classList.remove('Towitela');
-        Entry.classList.add('Lukazellig');
+        element.classList.remove('Ilozellig');
+        element.classList.remove('NSTAN');
+        element.classList.remove('Consolas');
+        element.classList.remove('AWT');
+        element.classList.remove('Towitela');
+        element.classList.add('Lukazellig');
     });
   });
 //NSTANER
   NNMaker.addEventListener('click', () => {
     Entry.forEach((element) => {
-        Entry.classList.remove('Ilozellig');
-        Entry.classList.remove('Lukazellig');
-        Entry.classList.remove('Consolas');
-        Entry.classList.remove('AWT');
-        Entry.classList.remove('Towitela');
-        Entry.classList.add('NSTAN');
+        element.classList.remove('Ilozellig');
+        element.classList.remove('Lukazellig');
+        element.classList.remove('Consolas');
+        element.classList.remove('AWT');
+        element.classList.remove('Towitela');
+        element.classList.add('NSTAN');
     });
   });
 //CONSOLASER
   CSMaker.addEventListener('click', () => {
     Entry.forEach((element) => {
-        Entry.classList.remove('Ilozellig');
-        Entry.classList.remove('NSTAN');
-        Entry.classList.remove('Lukazellig');
-        Entry.classList.remove('AWT');
-        Entry.classList.remove('Towitela');
-        Entry.classList.add('Consolas');
+        element.classList.remove('Ilozellig');
+        element.classList.remove('NSTAN');
+        element.classList.remove('Lukazellig');
+        element.classList.remove('AWT');
+        element.classList.remove('Towitela');
+        element.classList.add('Consolas');
     });
   });
 //TOWITELAER
   TWMaker.addEventListener('click', () => {
     Entry.forEach((element) => {
-        Entry.classList.remove('Ilozellig');
-        Entry.classList.remove('NSTAN');
-        Entry.classList.remove('Consolas');
-        Entry.classList.remove('AWT');
-        Entry.classList.remove('Lukazellig');
-        Entry.classList.add('Towitela');
+        element.classList.remove('Ilozellig');
+        element.classList.remove('NSTAN');
+        element.classList.remove('Consolas');
+        element.classList.remove('AWT');
+        element.classList.remove('Lukazellig');
+        element.classList.add('Towitela');
     });
   });
 //AWTER
   AWMaker.addEventListener('click', () => {
     Entry.forEach((element) => {
-        Entry.classList.remove('Ilozellig');
-        Entry.classList.remove('NSTAN');
-        Entry.classList.remove('Consolas');
-        Entry.classList.remove('Towitela');
-        Entry.classList.remove('Lukazellig');
-        Entry.classList.add('AWT');
+        element.classList.remove('Ilozellig');
+        element.classList.remove('NSTAN');
+        element.classList.remove('Consolas');
+        element.classList.remove('Towitela');
+        element.classList.remove('Lukazellig');
+        element.classList.add('AWT');
     });
   });
 });
