@@ -26,12 +26,12 @@ const Entry = document.querySelectorAll('.Entry');
     });
 //LUKAZELLIGER
   LzMaker.addEventListener('click', () => {
-        Entry.classList.remove('.Ilozellig');
-        Entry.classList.remove('.NSTAN');
-        Entry.classList.remove('.Consolas');
-        Entry.classList.remove('.AWT');
-        Entry.classList.remove('.Towitela');
-        Entry.classList.add('.Lukazellig');
+        Entry.classList.remove('Ilozellig');
+        Entry.classList.remove('NSTAN');
+        Entry.classList.remove('Consolas');
+        Entry.classList.remove('AWT');
+        Entry.classList.remove('Towitela');
+        Entry.classList.add('Lukazellig');
     });
 //NSTANER
   NNMaker.addEventListener('click', () => {
