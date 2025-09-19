@@ -68,7 +68,7 @@ h3 {
     font-family: 'Consolas', serif;
 }
 
-button {
+FDB {
  /*background-color: hsl(260 9 79);
  height: 4rem;
  width: 10rem;
@@ -80,6 +80,17 @@ button {
  border: 2px dashed hsl(288 58 60);
  text-decoration: none;
  margin:auto;
+}
+
+FSB {
+ background-color: hsl(0 0 20);
+ height: fit-content;
+ width: fit-content;
+ border: 2px dashed hsl(60);
+ text-decoration: underline;
+ margin:10rem;
+ color:white;
+ padding:20px;
 }
 
 .LSC-Unit-Left {
