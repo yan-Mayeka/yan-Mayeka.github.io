@@ -17,15 +17,18 @@ const ijoConsolas = document.querySelectorAll('.Consolas'); // Selects elements 
 const Entry = document.querySelectorAll('.Entry');
 //ILOZELLIGER
   IzMaker.addEventListener('click', () => {
-        Entry.classList.remove('Lukazellig');
-        Entry.classList.remove('NSTAN');
-        Entry.classList.remove('Consolas');
-        Entry.classList.remove('AWT');
-        Entry.classList.remove('Towitela');
-        Entry.classList.add('Ilozellig');
+    Entry.forEach((element) => {
+      element.classList.remove('Lukazellig');
+      element.classList.remove('NSTAN');
+      element.classList.remove('Consolas');
+      element.classList.remove('AWT');
+      element.classList.remove('Towitela');
+      element.classList.add('Ilozellig');
     });
+  });
 //LUKAZELLIGER
   LzMaker.addEventListener('click', () => {
+    Entry.forEach((element) => {
         Entry.classList.remove('ijoIlozellig');
         Entry.classList.remove('ijoNSTAN');
         Entry.classList.remove('ijoConsolas');
@@ -33,8 +36,10 @@ const Entry = document.querySelectorAll('.Entry');
         Entry.classList.remove('ijoTowitela');
         Entry.classList.add('ijoLukazellig');
     });
+  });
 //NSTANER
   NNMaker.addEventListener('click', () => {
+    Entry.forEach((element) => {
         Entry.classList.remove('Ilozellig');
         Entry.classList.remove('Lukazellig');
         Entry.classList.remove('Consolas');
@@ -42,8 +47,10 @@ const Entry = document.querySelectorAll('.Entry');
         Entry.classList.remove('Towitela');
         Entry.classList.add('NSTAN');
     });
+  });
 //CONSOLASER
   CSMaker.addEventListener('click', () => {
+    Entry.forEach((element) => {
         Entry.classList.remove('Ilozellig');
         Entry.classList.remove('NSTAN');
         Entry.classList.remove('Lukazellig');
@@ -51,8 +58,10 @@ const Entry = document.querySelectorAll('.Entry');
         Entry.classList.remove('Towitela');
         Entry.classList.add('Consolas');
     });
+  });
 //TOWITELAER
   TWMaker.addEventListener('click', () => {
+    Entry.forEach((element) => {
         Entry.classList.remove('Ilozellig');
         Entry.classList.remove('NSTAN');
         Entry.classList.remove('Consolas');
@@ -60,8 +69,10 @@ const Entry = document.querySelectorAll('.Entry');
         Entry.classList.remove('Lukazellig');
         Entry.classList.add('Towitela');
     });
+  });
 //AWTER
   AWMaker.addEventListener('click', () => {
+    Entry.forEach((element) => {
         Entry.classList.remove('Ilozellig');
         Entry.classList.remove('NSTAN');
         Entry.classList.remove('Consolas');
@@ -69,4 +80,5 @@ const Entry = document.querySelectorAll('.Entry');
         Entry.classList.remove('Lukazellig');
         Entry.classList.add('AWT');
     });
+  });
 });
