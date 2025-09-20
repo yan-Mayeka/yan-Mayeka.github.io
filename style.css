@@ -12,32 +12,32 @@ h3 {
 
 @font-face {
     font-family: "Lukazellig";
-    src: url('./assests/fonts/sitelen_Lukasele_Majeka.otf') format('opentype');
+    src: url('/assests/fonts/sitelen_Lukasele_Majeka.otf') format('opentype');
 }
 
 @font-face {
     font-family: "Ilozellig";
-    src: url('./assests/fonts/sitelen-Ilosele.otf') format('opentype');
+    src: url('/assests/fonts/sitelen-Ilosele.otf') format('opentype');
 }
 
 @font-face {
     font-family: "Towitela";
-    src: url('./assests/fonts/linja_Majeka_pi_toki_tokiB4.otf') format('opentype');
+    src: url('/assests/fonts/linja_Majeka_pi_toki_tokiB4.otf') format('opentype');
 }
 
 @font-face {
     font-family: "AWT";
-    src: url('./assests/fonts/sitelen-Majeka-pi-alasa-wan-taso.otf') format('opentype');
+    src: url('/assests/fonts/sitelen-Majeka-pi-alasa-wan-taso.otf') format('opentype');
 }
 
 @font-face {
     font-family: "NSTAN";
-    src: url('./assests/fonts/nasin-nanpa-4.0.2.otf') format('opentype');
+    src: url('/assests/fonts/nasin-nanpa-4.0.2.otf') format('opentype');
 }
 
 @font-face {
     font-family: "Consolas";
-    src: url('./assests/fonts/Consolas.otf') format('opentype');
+    src: url('/assests/fonts/Consolas.otf') format('opentype');
 }
 
 
