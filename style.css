@@ -10,6 +10,26 @@ h3 {
   font-weight: normal;
 }
 
+:root {
+    --bg-color: hsl(0 0 100);
+    --text-color: hsl(0 0 0);
+}
+
+body {
+  zoom: 200%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+   background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: #800085;
+}
+
+
 @font-face {
     font-family: "Lukazellig";
     src: url('/assests/fonts/sitelen_Lukasele_Majeka.otf') format('opentype');
@@ -166,28 +186,9 @@ h3 {
   margin: 8px;
 }
 
-:root {
-    --bg-color: hsl(0 0 100);
-    --text-color: hsl(0 0 0);
-}
-
-body {
-  zoom: 200%;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-   background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
 .pimeja {
     --bg-color: hsl(0 0 0);
     --text-color: hsl(0 0 100);
-}
-
-a {
-  text-decoration: none;
-  color: #800085;
 }
 
 .TNS-Þumbnail {
