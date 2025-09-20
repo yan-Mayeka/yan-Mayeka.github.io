@@ -10,7 +10,7 @@ if (savedTheme === 'dark') {
 }
 
 // Event listener for the toggle button
-themeToggle.addEventListener('click', () => {
+ToggButt.addEventListener('click', () => {
     body.classList.toggle('pimeja');
 
     // Save theme preference to local storage
