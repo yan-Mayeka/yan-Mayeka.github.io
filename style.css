@@ -209,7 +209,7 @@ a {
 }
 
 .topper {
-  justify-content:space-between
+  justify-content:space-between;
   display:flex;
   align-items:center;
   background-color:gray;
