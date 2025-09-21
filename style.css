@@ -208,6 +208,24 @@ a {
   transition: filter 0.2s ease;
 }
 
+.topper {
+  display:flex;
+  align-items:center;
+  padding:5px;
+  color:gray;
+}
+
+.toppericon {
+  width:15%
+  height:auto;
+  padding:2%;
+}
+
+.toppertext {
+  font-size:0.7rem;
+  color: hsl(0 0 80)
+}
+
 #Iz {
   /*silly*/
 }
@@ -237,5 +255,7 @@ a {
 }
 
 #Darkner {
-  /*HO HO HO! I JUST A SMALL BOY LOST IN THIS CSS FILE*/
+  /*HO HO HO! I'M JUST A SMALL BOY LOST IN THIS CSS FILE*/
+  width: fit-content;
+  height: fit-content;
 }
