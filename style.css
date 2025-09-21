@@ -213,17 +213,19 @@ a {
   align-items:center;
   padding:5px;
   color:gray;
+  margin-top:0px;
+  margin-bottom:0px;
 }
 
 .toppericon {
-  width:15%
-  height:auto;
-  padding:2%;
+  width: 15%;
+  height: auto;
+  padding: 2%;
 }
 
 .toppertext {
   font-size:0.7rem;
-  color: hsl(0 0 80)
+  color: hsl(0 0 80);
 }
 
 #Iz {
