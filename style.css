@@ -212,9 +212,10 @@ a {
   display:flex;
   align-items:center;
   padding:5px;
-  color:gray;
+  background-color:gray;
   margin-top:0px;
   margin-bottom:0px;
+  gap:3%;
 }
 
 .toppericon {
@@ -226,6 +227,8 @@ a {
 .toppertext {
   font-size:0.7rem;
   color: hsl(0 0 80);
+  magin-top:0px;
+  margin-bottom:0px;
 }
 
 #Iz {
