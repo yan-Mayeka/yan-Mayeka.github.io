@@ -211,7 +211,6 @@ a {
 .topper {
   display:flex;
   align-items:center;
-  padding:5px;
   background-color:gray;
   margin-top:0px;
   margin-bottom:0px;
@@ -229,7 +228,7 @@ a {
   color: hsl(0 0 80);
   margin-top:0px;
   margin-bottom:0px;
-  width:10%;
+  width:100%;
   padding:1%;
 }
 
