@@ -219,7 +219,7 @@ a {
 }
 
 .toppericon {
-  width: 15%;
+  width: 10%;
   height: auto;
   padding: 2%;
 }
@@ -227,8 +227,10 @@ a {
 .toppertext {
   font-size:0.7rem;
   color: hsl(0 0 80);
-  magin-top:0px;
+  margin-top:0px;
   margin-bottom:0px;
+  width:10%;
+  padding:1%;
 }
 
 #Iz {
