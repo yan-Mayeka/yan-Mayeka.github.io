@@ -21,6 +21,13 @@ terug.addEventListener('click', () => {
         PagNum -= 1;
         console.log(`CurPag is ${PagNum}`);
     });
+//Over and underflow
+if (PagNum < 0){
+        PagNum = 25;
+}
+if (PagNum > 25){
+        PagNum = 0;
+}
 //ifs
 if (PagNum == 0){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 0.png";
@@ -69,11 +76,4 @@ if (PagNum == 0){
 }
  if(PagNum == 15){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
-}
-//Over and underflow
-if (PagNum < 0){
-        PagNum = 25;
-}
-if (PagNum > 25){
-        PagNum = 0;
 }
