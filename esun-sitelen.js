@@ -5,15 +5,6 @@ const vlgnd = document.getElementById('vgnd');
 const terug = document.getElementById('trg');
 
 //someþing like if pagnum = 1, set page to 1, if pagnum =2 , set page to 2, etc.
-//CurPag.src = 'dogtest.png'  html la) onclick="vgnd()"; onclick="trg()"
-vlgnd.addEventListener('click', () => {
-        PagNum += 1;
-        console.log(`CurPag is ${PagNum}`);
-    });
-terug.addEventListener('click', () => {
-        PagNum -= 1;
-        console.log(`CurPag is ${PagNum}`);
-    });
 /*function vlg(){
         PagNum++;  
 }
@@ -24,10 +15,10 @@ function trg(){
 //Over and underflow
 if(PagNum < 0){
   PagNum = 0;
-}
+};
 else if(PagNum > 25){
   PagNum = 25;
-}
+};
 //ifs
 if(PagNum == 0){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 0.png";
@@ -77,3 +68,13 @@ else if(PagNum == 14){
 else if(PagNum == 15){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
 }
+
+//CurPag.src = 'dogtest.png'  html la) onclick="vgnd()"; onclick="trg()"
+vlgnd.addEventListener('click', () => {
+        PagNum += 1;
+        console.log(`CurPag is ${PagNum}`);
+    });
+terug.addEventListener('click', () => {
+        PagNum -= 1;
+        console.log(`CurPag is ${PagNum}`);
+    });
