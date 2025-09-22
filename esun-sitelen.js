@@ -15,65 +15,160 @@ function trg(){
 //CurPag.src = 'dogtest.png'  html la) onclick="vgnd()"; onclick="trg()"
 vlgnd.addEventListener('click', () => {
         PagNum += 1;
-        console.log(`CurPag is ${PagNum}`);
-    });
-terug.addEventListener('click', () => {
-        PagNum -= 1;
-        console.log(`CurPag is ${PagNum}`);
-    });
-//Over and underflow
-if (PagNum < 0){
-        PagNum = 25;
-}
-if (PagNum > 25){
+        if (PagNum > 25){
         PagNum = 0;
 }
-//ifs
-if (PagNum === 0){
+        console.log(`CurPag is ${PagNum}`);
+        if (PagNum === 0){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 0.png";
 }
- if(PagNum === 1){
+ else if(PagNum === 1){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 1.png";
 }
- if(PagNum === 2){
+ else if(PagNum === 2){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 2.png";
 }
- if(PagNum === 3){
+ else if(PagNum === 3){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 3.png";
 }
- if(PagNum === 4){
+ else if(PagNum === 4){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 4.png";
 }
  if(PagNum === 5){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 5.png";
 }
- if(PagNum === 6){
+ else if(PagNum === 6){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 6.png";
 }
- if(PagNum === 7){
+ else if(PagNum === 7){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 7.png";
 }
- if(PagNum === 8){
+ else if(PagNum === 8){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 8.png";
 }
- if(PagNum === 9){
+ else if(PagNum === 9){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 9.png";
 }
- if(PagNum === 10){
+ else if(PagNum === 10){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 10.png";
 }
- if(PagNum === 11){
+ else if(PagNum === 11){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 11.png";
 }
- if(PagNum === 12){
+ else if(PagNum === 12){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 12.png";
 }
- if(PagNum === 13){
+ else if(PagNum === 13){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 13.png";
 }
- if(PagNum === 14){
+ else if(PagNum === 14){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 14.png";
 }
- if(PagNum === 15){
+ else if(PagNum === 15){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
 }
+    });
+terug.addEventListener('click', () => {
+        PagNum -= 1;
+        if (PagNum < 0){
+        PagNum = 25;
+}
+        console.log(`CurPag is ${PagNum}`);
+        if (PagNum === 0){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 0.png";
+}
+ else if(PagNum === 1){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 1.png";
+}
+ else if(PagNum === 2){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 2.png";
+}
+ else if(PagNum === 3){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 3.png";
+}
+ else if(PagNum === 4){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 4.png";
+}
+ if(PagNum === 5){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 5.png";
+}
+ else if(PagNum === 6){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 6.png";
+}
+ else if(PagNum === 7){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 7.png";
+}
+ else if(PagNum === 8){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 8.png";
+}
+ else if(PagNum === 9){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 9.png";
+}
+ else if(PagNum === 10){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 10.png";
+}
+ else if(PagNum === 11){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 11.png";
+}
+ else if(PagNum === 12){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 12.png";
+}
+ else if(PagNum === 13){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 13.png";
+}
+ else if(PagNum === 14){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 14.png";
+}
+ else if(PagNum === 15){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
+}
+    });
+//ifs
+/**if (PagNum === 0){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 0.png";
+}
+ else if(PagNum === 1){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 1.png";
+}
+ else if(PagNum === 2){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 2.png";
+}
+ else if(PagNum === 3){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 3.png";
+}
+ else if(PagNum === 4){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 4.png";
+}
+ if(PagNum === 5){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 5.png";
+}
+ else if(PagNum === 6){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 6.png";
+}
+ else if(PagNum === 7){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 7.png";
+}
+ else if(PagNum === 8){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 8.png";
+}
+ else if(PagNum === 9){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 9.png";
+}
+ else if(PagNum === 10){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 10.png";
+}
+ else if(PagNum === 11){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 11.png";
+}
+ else if(PagNum === 12){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 12.png";
+}
+ else if(PagNum === 13){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 13.png";
+}
+ else if(PagNum === 14){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 14.png";
+}
+ else if(PagNum === 15){
+  CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
+}*/
