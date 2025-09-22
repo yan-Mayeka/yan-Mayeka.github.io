@@ -1,5 +1,5 @@
 //Declare varibabables
-let PagNum = 3;
+let PagNum = 0;
 let CurPag = document.getElementById('CurPag');
 const vlgnd = document.getElementById('vgnd');
 const terug = document.getElementById('trg');
