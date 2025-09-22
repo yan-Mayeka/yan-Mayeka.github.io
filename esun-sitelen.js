@@ -6,19 +6,21 @@ const terug = document.getElementById('trg');
 
 //someþing like if pagnum = 1, set page to 1, if pagnum =2 , set page to 2, etc.
 //CurPag.src = 'dogtest.png'  html la) onclick="vgnd()"; onclick="trg()"
-/*vlgnd.addEventListener('click', function() {
-        PagNum++;
+vlgnd.addEventListener('click', () => {
+        PagNum += 1;
+        console.log(`CurPag is ${CurPag}`);
     });
-terug.addEventListener('click', function() {
-        PagNum--;
-    });*/
-function vlg(){
-        PagNum++;
-        
+terug.addEventListener('click', () => {
+        PagNum -= 1;
+        console.log(`CurPag is ${CurPag}`);
+    });
+/*function vlg(){
+        PagNum++;  
 }
 function trg(){
         PagNum--;
 }
+*/
 //Over and underflow
 if(PagNum < 0){
   PagNum == 0;
