@@ -15,7 +15,7 @@ function trg(){
 //CurPag.src = 'dogtest.png'  html la) onclick="vgnd()"; onclick="trg()"
 vlgnd.addEventListener('click', () => {
         PagNum += 1;
-        if (PagNum > 25){
+        if (PagNum > 15){
         PagNum = 0;
 }
         console.log(`CurPag is ${PagNum}`);
@@ -67,12 +67,12 @@ vlgnd.addEventListener('click', () => {
  else if(PagNum === 15){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
 }
-        document.getElementById('PagNum').textContent = `󱤪󱤽${PagNum}︀`;
+        document.getElementById('PagNum').textContent = `<${PagNum}>`;
     });
 terug.addEventListener('click', () => {
         PagNum -= 1;
         if (PagNum < 0){
-        PagNum = 25;
+        PagNum = 15;
 }
         console.log(`CurPag is ${PagNum}`);
         if (PagNum === 0){
@@ -123,7 +123,7 @@ terug.addEventListener('click', () => {
  else if(PagNum === 15){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
 }
-        document.getElementById('PagNum').textContent = `${PagNum}︀`;
+        document.getElementById('PagNum').textContent = `<${PagNum}>`;
     });
 //ifs
 /**if (PagNum === 0){
