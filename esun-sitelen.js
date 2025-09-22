@@ -123,7 +123,7 @@ terug.addEventListener('click', () => {
  else if(PagNum === 15){
   CurPag.src = "/assests/images/Maya's Sweet 16/MS16 lipu nanpa 15.png";
 }
-        document.getElementById('PagNum').textContent = `󱤪󱤽${PagNum}︀`;
+        document.getElementById('PagNum').textContent = `${PagNum}︀`;
     });
 //ifs
 /**if (PagNum === 0){
