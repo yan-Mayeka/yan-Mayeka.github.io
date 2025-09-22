@@ -23,10 +23,10 @@ function trg(){
 */
 //Over and underflow
 if(PagNum < 0){
-  PagNum == 0;
+  PagNum = 0;
 }
 else if(PagNum > 25){
-  PagNum == 25;
+  PagNum = 25;
 }
 //ifs
 if(PagNum == 0){
