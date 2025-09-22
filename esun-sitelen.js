@@ -8,11 +8,11 @@ const terug = document.getElementById('trg');
 //CurPag.src = 'dogtest.png'  html la) onclick="vgnd()"; onclick="trg()"
 vlgnd.addEventListener('click', () => {
         PagNum += 1;
-        console.log(`CurPag is ${CurPag}`);
+        console.log(`CurPag is ${PagNum}`);
     });
 terug.addEventListener('click', () => {
         PagNum -= 1;
-        console.log(`CurPag is ${CurPag}`);
+        console.log(`CurPag is ${PagNum}`);
     });
 /*function vlg(){
         PagNum++;  
