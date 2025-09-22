@@ -1,5 +1,5 @@
 //Declare varibabables
-let PagNum = 0;
+let PagNum = 3;
 let CurPag = document.getElementById('CurPag');
 const vlgnd = document.getElementById('vgnd');
 const terug = document.getElementById('trg');
@@ -14,6 +14,7 @@ terug.addEventListener('click', function() {
     });*/
 function vlg(){
         PagNum++;
+        
 }
 function trg(){
         PagNum--;
