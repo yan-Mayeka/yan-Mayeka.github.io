@@ -1,15 +1,17 @@
 //Declare varibabables
 let PagNum = 0;
 let CurPag = document.getElementById('CurPag');
+const vlgnd = document.getElementById('vgnd');
+const terug = document.getElementById('trg');
 
 //someþing like if pagnum = 1, set page to 1, if pagnum =2 , set page to 2, etc.
 //CurPag.src = 'dogtest.png'  html la) onclick="vgnd()"; onclick="trg()"
-function vgnd(){
-  PagNum++;
-}
-function trg(){
-  PagNum--;
-}
+vlgnd.addEventListener('click', function() {
+        PagNum++;
+    });
+terug.addEventListener('click', function() {
+        PagNum--;
+    });
 //Over and underflow
 if(PagNum < 0){
   PagNum == 0;
