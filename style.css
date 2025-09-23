@@ -29,6 +29,10 @@ a {
   color: #800085;
 }
 
+.pimeja a {
+  text-decoration:none;
+  color:#be1dc4;
+}
 
 @font-face {
     font-family: "Lukazellig";
@@ -212,7 +216,7 @@ a {
   justify-content:space-between;
   display:flex;
   align-items:center;
-  background-color:hsl(0 0 80);
+  background-color:hsl(0 0 85);
   margin-top:0px;
   margin-bottom:8px;
   gap:3%;
@@ -237,7 +241,7 @@ a {
 }
 
 .toppertext {
-  color: #333333;
+  color: #555555;
   margin-top:0px;
   margin-bottom:0px;
   padding:1%;
@@ -251,7 +255,7 @@ a {
 }
 
 .toppertext a {
-  color: #333333;
+  color: #555555;
 }
 
 .pimeja .toppertext a {
