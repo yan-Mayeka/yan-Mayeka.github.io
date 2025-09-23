@@ -212,10 +212,22 @@ a {
   justify-content:space-between;
   display:flex;
   align-items:center;
-  background-color:gray;
+  background-color:hsl(0 0 80);
   margin-top:0px;
-  margin-bottom:0px;
+  margin-bottom:8px;
   gap:3%;
+  border-botom: 1px dotted hsl(0 0 20);
+}
+
+.pimeja.topper{
+  justify-content:space-between;
+  display:flex;
+  align-items:center;
+  background-color:hsl(0 0 20);
+  margin-top:0px;
+  margin-bottom:8px;
+  gap:3%;
+  border-botom: 1px dotted hsl(0 0 80);
 }
 
 .toppericon {
