@@ -237,6 +237,13 @@ a {
 }
 
 .toppertext {
+  color: hsl(0 0 20);
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:1%;
+}
+
+.pimeja .toppertext{
   color: hsl(0 0 80);
   margin-top:0px;
   margin-bottom:0px;
