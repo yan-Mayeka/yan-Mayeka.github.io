@@ -20,7 +20,7 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-   background-color: var(--bg-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
 }
 
@@ -94,11 +94,6 @@ a {
 }
 
 .FDB {
- /*background-color: hsl(260 9 79);
- height: 4rem;
- width: 10rem;
- border: 10px dashed hsl(288 57 63);
- text-decoration: none;*/
  background-color: hsl(260 100 90);
  height: 60px;
  width: 100px;
@@ -126,8 +121,8 @@ a {
   align-items: center;
   padding: 1%;
   margin-right: 2%;
-  /*min-width: 0px; 
-  word-wrap: break-word;*/
+  min-width: 0px; 
+  word-wrap: break-word;
 }
 
 .LSC-Unit-Middle {
@@ -219,7 +214,7 @@ a {
   align-items:center;
   background-color:hsl(0 0 85);
   margin-top:0px;
-  margin-bottom:8px;
+  margin-bottom:6.5%;
   gap:3%;
   border-bottom: 1px dotted hsl(0 0 20);
 }
@@ -230,7 +225,7 @@ a {
   align-items:center;
   background-color:hsl(0 0 20);
   margin-top:0px;
-  margin-bottom:8px;
+  margin-bottom:6.5%;
   gap:3%;
   border-bottom: 1px dotted hsl(0 0 80);
 }
