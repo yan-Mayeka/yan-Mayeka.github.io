@@ -115,7 +115,6 @@ a {
 }
 
 .LSC-Unit-Left {
-  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -125,7 +124,6 @@ a {
 }
 
 .LSC-Unit-Middle {
-  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -136,7 +134,6 @@ a {
 }
 
 .LSC-Unit-Right {
-  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
