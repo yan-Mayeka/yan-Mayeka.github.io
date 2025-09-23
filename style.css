@@ -117,7 +117,7 @@ a {
 .LSC-Unit-Left {
   display:flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   padding: 1%;
   margin-right: 2%;
@@ -139,7 +139,7 @@ a {
 .LSC-Unit-Right {
   display:flex;
   flex-direction: column;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   padding: 1%;
   margin-left: 2%;
