@@ -237,21 +237,25 @@ a {
 }
 
 .toppertext {
-  color: hsl(0 0 20);
+  color: #333333;
   margin-top:0px;
   margin-bottom:0px;
   padding:1%;
 }
 
 .pimeja .toppertext{
-  color: hsl(0 0 80);
+  color: #cccccc;
   margin-top:0px;
   margin-bottom:0px;
   padding:1%;
 }
 
 .toppertext a {
-  color: hsl(0 0 80);
+  color: #cccccc;
+}
+
+.pimeja .toppertext a {
+  color: #333333;
 }
 
 #Iz {
