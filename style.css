@@ -32,6 +32,7 @@ a {
 .pimeja a {
   text-decoration:none;
   color:#be1dc4;
+  transition: color 0.2s ease;
 }
 
 @font-face {
