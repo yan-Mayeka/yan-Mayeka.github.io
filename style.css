@@ -216,10 +216,10 @@ a {
   margin-top:0px;
   margin-bottom:8px;
   gap:3%;
-  border-botom: 1px dotted hsl(0 0 20);
+  border-bottom: 1px dotted hsl(0 0 20);
 }
 
-.pimeja.topper{
+.pimeja .topper{
   justify-content:space-between;
   display:flex;
   align-items:center;
@@ -227,7 +227,7 @@ a {
   margin-top:0px;
   margin-bottom:8px;
   gap:3%;
-  border-botom: 1px dotted hsl(0 0 80);
+  border-bottom: 1px dotted hsl(0 0 80);
 }
 
 .toppericon {
