@@ -2,6 +2,11 @@
 const ToggButt = document.getElementById('Darkner');
 const body = document.body;
 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  localStorage.setItem('theme', 'dark');
+} else {
+  localStorage.setItem('theme', 'light');
+}
 // Check for saved theme preference on page load
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
