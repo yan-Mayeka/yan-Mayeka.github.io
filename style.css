@@ -117,7 +117,7 @@ a {
 
 .LSC-Unit-Left {
   align-items: center;
-  padding-right: 1%;
+  padding: 1%;
   margin-right: 2%; 
   min-width:0px;
   word-wrap: break-word;
