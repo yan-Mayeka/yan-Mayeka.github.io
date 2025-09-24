@@ -230,6 +230,13 @@ a {
   width: 5%;
   height: auto;
   padding: 1px;
+  border-radius:5px;
+  border:1px solid hsl(0 0 20);
+}
+
+.pimeja .toppericon {
+  border-radius:5px;
+  border:1px solid hsl(0 0 80);
 }
 
 .toppertext {
