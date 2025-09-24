@@ -144,7 +144,7 @@ a {
 }
 
 .togradiant {
-  background: content-box linear-gradient(white, black);
+  background: content-box linear-gradient(var(--bg-color), black);
 }
 
 /** {
