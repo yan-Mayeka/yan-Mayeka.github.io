@@ -6,7 +6,7 @@ const body = document.body;
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
     body.classList.add('pimeja');
-    ToggButt.src = "/assests/images/ToggButt-Pimeja.png";
+    ToggButt.src = "/assests/images/ButtTogg-Pimeja.png";
 }
 
 // Event listener for the toggle button
@@ -16,9 +16,9 @@ ToggButt.addEventListener('click', () => {
     // Save theme preference to local storage
     if (body.classList.contains('pimeja')) {
         localStorage.setItem('theme', 'dark');
-        ToggButt.src = "/assests/images/ToggButt-Pimeja.png";
+        ToggButt.src = "/assests/images/ButtTogg-Pimeja.png";
     } else {
         localStorage.setItem('theme', 'light');
-        ToggButt.src = "/assests/images/ToggButt-Walo.png";
+        ToggButt.src = "/assests/images/ButtTogg-Walo.png";
     }
 });
