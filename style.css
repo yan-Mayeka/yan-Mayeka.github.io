@@ -183,10 +183,12 @@ a {
 }
 
 .blorbicon {
-  width: 50px;
+  width: 1.5em;
   height: auto;
-  border-radius:10px;
-  border:1px dotted hsl(288 55 38);
+  border-radius:5px;
+  border:1px dotted hsl(288 50 35);
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .pimeja {
