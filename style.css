@@ -183,7 +183,7 @@ a {
 }
 
 .blorbicon {
-  width: 5%;
+  width: 50px;
   height: auto;
   border-radius:10px;
   border:1px dotted hsl(288 55 38);
