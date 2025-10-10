@@ -166,7 +166,7 @@ a {
     align-items: center;
     margin: 1rem;
     background-color: hsl(250 20 70);
-    border: 2px dashed hsl(288 50 35);
+    border: 2px dashed hsl(295 30 40);
     padding: 1rem;
     top: 10;
     color: hsl(288 40 40);
@@ -186,7 +186,7 @@ a {
   width: 1em;
   height: auto;
   border-radius:5px;
-  border:1.5px dotted hsl(288 50 35);
+  border:1.5px dotted hsl(295 30 40);
 }
 
 .pimeja {
