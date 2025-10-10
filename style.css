@@ -183,10 +183,9 @@ a {
 }
 
 .blorbicon {
-  width: 1em;
+  width: 1.2em;
   height: auto;
-  border-radius:5px;
-  border:1.5px dotted hsl(295 30 40);
+  filter: saturate(2);
 }
 
 .pimeja {
