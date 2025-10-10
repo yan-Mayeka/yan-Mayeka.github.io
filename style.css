@@ -182,6 +182,13 @@ a {
   margin: 8px;
 }
 
+.blorbicon {
+  width: 5%;
+  height: auto;
+  border-radius:10px;
+  border:1px dotted hsl(288 55 38);
+}
+
 .pimeja {
     --bg-color: hsl(0 0 0);
     --text-color: hsl(0 0 100);
