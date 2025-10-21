@@ -331,3 +331,51 @@ a {
 #PagNum{
     /*silly*/
 }
+
+.CalcButt{
+  width:fit-content;
+  height:fit-content;
+  border:dashed 2px hsl(250 40 50);
+  background-color:hsl(230 40 70);
+  padding:2%;
+}
+
+#stylebust{
+  /*silly*/
+}
+
+#stylehalfbody{
+  /*silly*/
+}
+
+#stylefullbody{
+  /*silly*/
+}
+
+#stylesketch{
+  /*silly*/
+}
+
+#styleinked{
+  /*silly*/
+}
+
+#styleflats{
+  /*silly*/
+}
+
+#styleshaded{
+  /*silly*/
+}
+
+#additionbackgroundsimple{
+  /*silly*/
+}
+
+#additionbackgroundcomplex{
+  /*silly*/
+}
+
+#additionalcharacter{
+  /*silly*/
+}
